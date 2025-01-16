@@ -1,3 +1,34 @@
+\documentclass[a4paper,14pt]{extarticle}
+
+% Add language selection
+\newif\ifenglish
+\newcommand{\switchlanguage}[1]{%
+    \if#1e\englishtrue\else\englishfalse\fi
+}
+
+% Default to Russian
+\englishfalse
+
+% Language-dependent commands
+\newcommand{\thetitle}{%
+    \ifenglish
+        Fourier Transform and Its Applications
+    \else
+        Преобразование Фурье и его приложения
+    \fi
+}
+
+\newcommand{\theauthor}{%
+    \ifenglish
+        Author: [Your Name]
+    \else
+        Автор: [Ваше имя]
+    \fi
+}
+
+% Use these commands in your document
+\title{\thetitle}
+\author{\theauthor}
 
 \section{Заключение}
 В данной работе были рассмотрены различные аспекты применения преобразования Фурье и его производных в различных областях науки и техники. Были изучены теоретические основы преобразования Фурье, его свойства и методы вычисления. Также были рассмотрены примеры применения преобразования Фурье в обработке сигналов, изображений, анализе вибраций, решении дифференциальных уравнений и квантовой механике.
