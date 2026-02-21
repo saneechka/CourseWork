@@ -4,7 +4,7 @@
 
 
 
-### 🇷🇺 Русская версия
+### Русская версия
 
 #### Описание
 Курсовая работа посвящена изучению и практическому применению преобразования Фурье в различных областях науки и техники.
@@ -25,7 +25,7 @@
 
 ---
 
-### 🇬🇧 English version
+### English version
 
 #### Description
 This coursework is dedicated to studying and practical application of Fourier transform in various fields of science and technology.
